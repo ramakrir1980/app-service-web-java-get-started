@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'ranjithrtk'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_853ddd90063b4490bb7521c25b270282 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4364382d0fab41bdb34c3825d6b5282b }}
         package: '${{ github.workspace }}/target/*.jar'
